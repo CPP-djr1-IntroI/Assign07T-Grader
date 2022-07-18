@@ -22,7 +22,8 @@ line of data consists of the number of true-false answers followed
 by the actual answers to the Quiz where a 1 stands for true and 0 stands
 for false. Each subsequent line contains a student ID number and the
 student\'s answers to the Quiz. There are an unknown number of students
-in the datafile and at most 25 questions.
+in the datafile and at most 25 questions. The sentinel value is a 
+student with an id of 9999.
 
 You are to write a C++ program that will print information for each
 student shown below.
@@ -39,6 +40,7 @@ The following is a sample datafile that might be used in your program:
 1401 1 1 0 0 1 0 0 1 1 1
 1463 1 1 1 1 1 1 1 1 1 1
 1464 0 1 0 0 1 0 0 1 0 1
+9999
 </pre>
 
 Your output must look exactly like the following:
